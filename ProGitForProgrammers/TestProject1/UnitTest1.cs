@@ -21,5 +21,19 @@ namespace TestProject1
             //Assert
             Assert.Equal(except, customer.FullName);
         }
+        [Fact]
+        public void Test2()
+        {
+            //arrange
+            var customer = new Customer()
+            {FirstName="Ali"
+            };
+
+            //Act
+            var except = " Ali";
+
+            //Assert
+            Assert.Equal(except, customer.FullName);
+        }
     }
 }
