@@ -8,6 +8,7 @@ namespace ProGitForProgrammers
         {
             Console.WriteLine("Hello World!");
 			Console.WriteLine("Hello Stage-Index Area!");
+            Console.WriteLine("Hello Hello!");
         }
     }
 }
